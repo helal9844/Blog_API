@@ -1,0 +1,5 @@
+:concurrency: 5
+:schedule:
+  delete_expired_posts_job:
+    cron: "*/10 * * * *" # كل 10 دقائق
+    class: DeleteExpiredPostsJob
