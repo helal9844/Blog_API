@@ -11,5 +11,5 @@ Users can create posts, add comments, assign tags, and posts will be auto-delete
 - **Database**: PostgreSQL
 - **Authentication**: JWT
 - **Background Jobs**: Sidekiq + Redis
-- **Containerization**: Docker + Docker Compose
+
 
