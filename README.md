@@ -1,24 +1,15 @@
-# README
+# 📝 Blog API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A RESTful Blog API built with Ruby on Rails, PostgreSQL, JWT authentication, Redis, and Sidekiq.  
+Users can create posts, add comments, assign tags, and posts will be auto-deleted after 24 hours.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 📦 Tech Stack
 
-* System dependencies
+- **Backend**: Ruby on Rails
+- **Database**: PostgreSQL
+- **Authentication**: JWT
+- **Background Jobs**: Sidekiq + Redis
+- **Containerization**: Docker + Docker Compose
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
